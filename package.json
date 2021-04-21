@@ -1,0 +1,32 @@
+{
+  "name": "@vkhalikov/svelte-easy-form",
+  "version": "0.1.0",
+  "description": "A simple, easy to use form state and validation handler for Svelte",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "svelte": "^3.0.0"
+  },
+  "peerDependencies": {
+    "svelte": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkhalikov/svelte-easy-form.git"
+  },
+  "keywords": [
+    "svelte",
+    "form",
+    "forms",
+    "validation",
+    "validators"
+  ],
+  "author": "Vadim Khalikov <vkhalikov.work@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vkhalikov/rest-api-client/issues"
+  },
+  "homepage": "https://github.com/vkhalikov/rest-api-client#readme"
+}
