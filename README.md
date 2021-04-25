@@ -3,6 +3,7 @@ A simple, easy to use form state and validation handler for [Svelte](https://sve
 
 **Table of Content**
 - [Installation](#installation)
+- [Live example](#live-example)
 - [Basic usage](#basic-usage)
 - [API](#api)
     - [createForm](#createform)
@@ -16,7 +17,7 @@ A simple, easy to use form state and validation handler for [Svelte](https://sve
         - [values and errors](#values-and-errors)
         - [onInput](#oninput)
         - [onBlur](#onblur)
-        - [getSubmitHandler](#getsubmithandler)
+        - [onSubmit](#onsubmit)
 - [Contributing](#contributing)
 - [Current development state](#current-development-state)
 
@@ -26,6 +27,10 @@ A simple, easy to use form state and validation handler for [Svelte](https://sve
 ```sh
 npm install @vkhalikov/svelte-easy-form
 ```
+
+## Live Example
+
+Live example with different options is available [here](https://vkhalikov.github.io/svelte-easy-form).
 
 ## Basic usage
 

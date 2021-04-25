@@ -1,13 +1,24 @@
 {
   "name": "@vkhalikov/svelte-easy-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple, easy to use form state and validation handler for Svelte",
+  "homepage": "https://vkhalikov.github.io/svelte-easy-form",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv example --no-clear"
   },
   "devDependencies": {
-    "svelte": "^3.0.0"
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "sirv-cli": "^1.0.0"
   },
   "peerDependencies": {
     "svelte": "^3.0.0"
@@ -26,7 +37,6 @@
   "author": "Vadim Khalikov <vkhalikov.work@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vkhalikov/rest-api-client/issues"
-  },
-  "homepage": "https://github.com/vkhalikov/rest-api-client#readme"
+    "url": "https://github.com/vkhalikov/svelte-easy-form/issues"
+  }
 }
